@@ -1,0 +1,23 @@
+.card {
+    width: 320px;
+    background-color: var(--white-color);
+    padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: var(--shadow-card);
+}
+
+.image {
+    border-radius: 10px;
+    margin-bottom: var(--spacing-300);
+    width: 100%;
+    display: block;
+}
+
+.title,
+.description {
+    padding: 0 var(--spacing-200);
+    margin-bottom: var(--spacing-200);
+}
