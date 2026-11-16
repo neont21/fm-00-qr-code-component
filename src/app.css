@@ -1,0 +1,58 @@
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 47%, 89%);
+    --slate-700: hsl(218, 44%, 22%);
+    --slate-900: hsl(218, 44%, 22%);
+
+    --ff-outfit: 'Outfit', sans-serif;
+
+    --font-size-preset-1: 22px;
+    --font-weight-preset-1: 700;
+    --line-height-preset-1: 1.2;
+    --letter-spacing-preset-1: 0px;
+
+    --font-size-preset-2: 15px;
+    --font-weight-preset-2: 400;
+    --line-height-preset-2: 1.4;
+    --letter-spacing-preset-2: 0.2px;
+
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-500: 40px;
+
+    --shadow-card: 0 25px 25px rgb(0 0 0 / 4.77%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1.25rem;
+    font-family: var(--ff-outfit);
+    background-color: var(--slate-300);
+}
+
+h1 {
+    font-size: var(--font-size-preset-1);
+    font-weight: var(--font-weight-preset-1);
+    line-height: var(--line-height-preset-1);
+    letter-spacing: var(--letter-spacing-preset-1);
+    color: var(--slate-900);
+}
+
+p {
+    font-size: var(--font-size-preset-2);
+    font-weight: var(--font-weight-preset-2);
+    line-height: var(--line-height-preset-2);
+    letter-spacing: var(--letter-spacing-preset-2);
+    color: var(--slate-700);
+}
